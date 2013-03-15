@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/ActiveService" android:title="@string/ActiveService"
+		android:icon="@drawable/ic_play"></item>
+	<item android:id="@+id/StopService" android:title="@string/StopService"
+		android:icon="@drawable/ic_stop"></item>
+	<item android:id="@+id/Log" android:title="@string/Log"
+		android:icon="@drawable/ic_log"></item>
+	<item android:id="@+id/Options" android:title="@string/Options"
+		android:icon="@drawable/ic_options"></item>
+</menu>

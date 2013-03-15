@@ -1,19 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:background="@raw/ic_background" >
 
-    <TextView
-        android:layout_width="fill_parent"
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/checkBox1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="@string/Button1" />
+
+    <Button
+        android:id="@+id/ActiveService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:text="@string/ActiveService" />
+
+    <Button
+        android:id="@+id/StopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:text="@string/StopService" />
 
     <Button
         android:id="@+id/close"
-        android:layout_width="92dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:text="@string/close" 
-		android:layout_gravity="bottom|center" />
-    
-</LinearLayout>
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/close" />
+
+    <Button
+        android:id="@+id/ShowAlarmHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/HistoricalButtonText" />
+
+</RelativeLayout>

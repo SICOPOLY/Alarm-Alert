@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/FilterLog" android:title="@string/Filter"
+		  android:icon="@drawable/ic_filter">
+		<menu>
+		    <item android:id="@+id/FilterLog_All"
+			  android:title="@string/FilterLog_All_desc" />
+			<item android:id="@+id/FilterLog_Informations"
+				  android:title="@string/FilterLog_Informations_desc" />
+			<item android:id="@+id/FilterLog_Warnings"
+				  android:title="@string/FilterLog_Warnings_desc" />
+			<item android:id="@+id/FilterLog_Errors"
+				  android:title="@string/FilterLog_Errors_desc" />
+		</menu>
+	</item>
+	
+	<item android:id="@+id/ClearLog" android:title="@string/ClearLog"
+		android:icon="@drawable/ic_trash">
+	</item>
+	
+</menu>

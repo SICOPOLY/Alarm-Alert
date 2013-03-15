@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="hello">Hello World, SicoAlertActivity!</string>
-    <string name="app_name">SicoAlert</string>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">SCADA Alert</string>
     <string name="close">Cerrar</string>
-
+    <string name="Button1">Test</string>
+    <string name="checkBox1">Multiaviso</string>
+    <string name="ActiveService">Activar Servicio</string>
+    <string name="StopService">Parar Servicio</string>
+    <string name="Alert">Alert</string>
+    <string name="log_listitem_layout_img_desc">Img</string>
+    <string name="Log">Log Status</string>
+    <string name="Options">Opciones</string>
+    <string name="ClearLog">Borrar todo</string>
+    <string name="FilterLog_Informations_desc">Solo Informaciones</string>
+    <string name="FilterLog_Warnings_desc">Solo Avisos</string>
+	<string name="FilterLog_Errors_desc">Solo Errores</string>
+	<string name="Filter">Filtrar</string>
+	<string name="FilterLog_All_desc">Todo</string>
+	<string name="LogFileName">Log.dat</string>
+	<string name="AlarmFileName">AlarmHistory.dat</string>
+	<string name="HistoricalButtonText">Historico Alarmas</string>
+	<string name="AlarmHistory">Alarm History</string>
 </resources>
