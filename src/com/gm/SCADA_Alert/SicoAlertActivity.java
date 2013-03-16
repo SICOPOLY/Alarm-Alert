@@ -18,6 +18,7 @@ import android.widget.CheckBox;
 import android.widget.Toast;
 
 public class SicoAlertActivity extends Activity {
+	//Test commit
 	
 	public static final int APP_ID_NOTIFICATION = 1;
 	private int iIndex = 0;
